@@ -1,0 +1,44 @@
+.navbar-light {
+  padding-left: 2%;
+}
+#addMore {
+  margin-top: 15px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa-heart {
+  color: red;
+  cursor: pointer;
+}
+.container {
+  border-radius: 25px;
+  background: #f2f2f2;
+  padding: 20px;
+}
+.image {
+  max-width: 100%;
+  max-height: auto;
+  text-align: center;
+}
+.title {
+  text-align: center;
+}
+
+.share {
+  opacity: 0;
+}
+.shared {
+  opacity: 0;
+  animation: fade 2s linear;
+}
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
